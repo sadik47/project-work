@@ -1,0 +1,101 @@
+.slide-image{
+    height: 500px;
+}
+
+.slide-image{
+    background-image: url(images/picture9.jpg);
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.wrap{
+    position: absolute;
+    width: 30%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.search{
+    width: 170%;
+    position: relative;
+    
+}
+.searchButton{
+    float: left;
+    width: 100%;
+    border: 3px solid white;
+    padding: 11px;
+    font-size: 17px;
+    outline: none;
+    margin-left: -127px;
+    border-radius: 15px;
+}
+.submitButton{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border: 1px solid white;
+    background-color: white;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    margin-left: -55px;
+    border-radius: 15px;
+}
+
+
+.column-image img{
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 20px;
+    padding: 10px;
+    background: white;
+    box-shadow: 0 0 15px rgba(0, 0, 0, .2);
+}
+
+.column-image{
+    column-count: 3;
+    column-gap: 10px;
+    max-width: 1000px;
+    margin: 0 auto;
+    background: white;
+    padding: 30px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, .25);
+}
+
+.long-height{
+    height: 200px;
+    margin-top: -50px;
+    background-color: white;
+   
+}
+.images{
+    height: 100px;
+    width: 200px;
+    margin: 10px;
+    margin-left: 28px;
+    margin-top: 27px;
+    border-radius: 9px;
+}
+.heading{
+    color: gray;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+}
+.border-color{
+    border-left: 1px solid gray;
+}
+.button-submit{
+    background-color: orange;
+    border-radius: 8px;
+    border: none;
+    margin-top: 10px;
+}
+.half-width{
+    width: 1140px;
+    margin-left: 105px;
+}
